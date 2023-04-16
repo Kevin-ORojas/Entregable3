@@ -28,7 +28,7 @@ const ResidentCard = ({resident}) => {
       </div>
       </div>
       <section className='border-green-500 border-[1px] py-2' >
-        <h3 className='text-black bg-red-200 text-center text-[32px] animate-bounce dela'>{residenInfo?.name}</h3>
+        <h3 className='text-black bg-red-200 text-center text-[15px] animate-bounce dela'>{residenInfo?.name}</h3>
         <ul>
           <li>
             <span className='text-[#938686]'>Species:</span>
