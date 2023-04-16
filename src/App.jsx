@@ -32,7 +32,7 @@ function App() {
 
       <img className="mx-auto" src="/images/portal.png" alt="" />
       <div >
-        <img className="mx-auto absolute top-4 md:left-[300px] md:animate-pulse   lg:left-[410px] 2xl:left-[720px] " src="/images/logo.png" alt="" />
+        <img className="mx-auto absolute top-4 md:left-[300px] md:animate-pulse   lg:left-[410px] 2xl:left-[470px] " src="/images/logo.png" alt="" />
       </div>
       <form className="" onSubmit={handleSubmit}>
 
