@@ -45,7 +45,7 @@ function App() {
         />
       </div>
 
-      <div className="absolute md:left-[90%] animate-pulse bg-green-500 rounded-sm mx-auto mt-48 ">
+      <div className="absolute  md:left-[90%] animate-pulse  bg-green-500 rounded-sm mx-auto mt-48 max-[320px]:hidden ">
         <img src="/images/Rectangle1.png" alt="" />
       </div>
 
