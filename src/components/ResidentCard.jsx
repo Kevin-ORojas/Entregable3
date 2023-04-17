@@ -32,7 +32,7 @@ const ResidentCard = ({resident}) => {
         <ul>
           <li>
             <span className='text-[#938686]'>Species:</span>
-            <span className='text-white pl-16'>{residenInfo?.species}</span>
+            <span className='text-white pl-12'>{residenInfo?.species}</span>
           </li>
           <li>
             <span className='text-[#938686]'>Origin:</span>
