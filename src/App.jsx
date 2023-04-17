@@ -9,9 +9,9 @@ function App() {
   const [location, setLocation] = useState();
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    const newLocation = e.target.locationId.value;
-
+    e.preventDefault()
+    const newLocation = e.target.locationId.value
+    if(newLocation.length === 0) return
     const URL = `https://rickandmortyapi.com/api/location/${newLocation}`;
 
     axios
