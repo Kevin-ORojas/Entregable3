@@ -35,8 +35,8 @@ const ResidentCard = ({resident}) => {
             <span className='text-white pl-12'>{residenInfo?.species}</span>
           </li>
           <li>
-            <span className='text-[#938686]'>Origin:</span>
-            <span className='text-white pl-10'> {residenInfo?.origin.name}</span>
+            <span className='text-[#235e68]'>Origin:</span>
+            <span className='text-[#235e68] pl-10'> {residenInfo?.origin.name}</span>
           </li>
           <li>
             <span className='text-[#938686]'>Times appear:</span>

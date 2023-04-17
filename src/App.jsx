@@ -41,7 +41,7 @@ function App() {
      
       <div>
         <img
-          className="mx-auto  absolute sm:w-[40%] sm:left-[30px] top-5 md:left-[30%] md:animate-pulse sm:animete-pulse  lg:left-[30%] 2xl:left-[52%] "
+          className="mx-auto  absolute sm:w-[40%] sm:left-[30px] top-5 md:left-[30%] md:animate-pulse sm:animete-pulse  lg:left-[30%] 2xl:left-[32%] "
           src="/images/logo.png"
           alt=""
         />
@@ -50,7 +50,7 @@ function App() {
       <form className="" onSubmit={handleSubmit}>
         <div className="flex justify-center py-2 mt-[-120px] ">
           <input
-            className="border-green-400  bg-black text-[#938686] font-bold sm:px-10 px-1 py-2 w-[65%]  border-[2px]"
+            className="border-green-400  bg-black text-[#938686] font-bold sm:px-10 px-1 py-2 w-[65%] md:w-[30%] border-[2px] "
             id="locationId"
             placeholder="Type a location id ..."
             type="text"
