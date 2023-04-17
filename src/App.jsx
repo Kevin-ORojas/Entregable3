@@ -29,19 +29,17 @@ function App() {
       .catch((err) => console.log(err));
   }, []);
   return (
-    <div className="bg-[url(/images/start.png)] mx-auto py-4 min-h-screen">
+    <div className="bg-[url(/images/start.png)] mx-auto max-sm-[370px] py-4 min-h-screen">
       <div className="-translate-y-[40%]">
         <img
-          className="mx-auto animate-spin-slow "
+          className="mx-auto animate-spin-slow w-[70%] md:w-[40%]"
           src="/images/portal.png"
           alt=""
         />
       </div>
-
-     
       <div>
         <img
-          className="mx-auto  absolute sm:w-[40%] sm:left-[30px] top-5 md:left-[30%] md:animate-pulse sm:animete-pulse  lg:left-[30%] 2xl:left-[32%] "
+          className="mx-auto  absolute sm:w-[40%] w-[80%] left-12 sm:left-[30%] top-5 md:left-[30%] md:animate-pulse sm:animete-pulse  lg:left-[30%] 2xl:left-[32%] "
           src="/images/logo.png"
           alt=""
         />
