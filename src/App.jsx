@@ -39,16 +39,17 @@ function App() {
       </div>
       <div>
         <img
-          className="mx-auto  absolute sm:w-[40%] w-[80%] left-12 sm:left-[30%] top-5 md:left-[30%] md:animate-pulse sm:animete-pulse  lg:left-[30%] 2xl:left-[32%] "
+          className="mx-auto  absolute sm:w-[40%] w-[80%] left-12 sm:left-[30%] top-4 md:left-[30%] md:animate-pulse sm:animete-pulse  lg:left-[30%] 2xl:left-[32%] "
           src="/images/logo.png"
           alt=""
         />
       </div>
 
       <form className="" onSubmit={handleSubmit}>
-        <div className="flex justify-center py-2 mt-[-120px] ">
+
+        <div className="flex justify-center py-12 mt-[-120px] ">
           <input
-            className="border-green-400  bg-black text-[#938686] font-bold sm:px-10 px-1 py-2 w-[65%] md:w-[30%] border-[2px] "
+            className="border-green-400 p-5 bg-black text-[#938686] font-bold sm:px-10 px-1 py-2 w-[65%] md:w-[30%] border-[2px] "
             id="locationId"
             placeholder="Type a location id ..."
             type="text"
